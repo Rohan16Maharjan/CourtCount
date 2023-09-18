@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.content {
+	display: flex;
+	max-width: 35%;
+	height: 80vh;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	padding: 0.2rem;
+}
+
+.box1 {
+	max-width: 200px;
+	margin: auto;
+	border-right: 5px;
+	box-shadow: rgba(0, 0, 0, 0.56) 0px 1px 4px;
+	padding: 30px;
+}
+
+.box1 p {
+	font-size: 3rem;
+	text-align: center;
+	padding: 0.2rem;
+}
+
+button {
+	padding: 8px;
+	margin: 3.5px;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.one {
+	background-color: #18978f;
+}
+
+.two {
+	background-color: rgb(0, 255, 128);
+}
+.three {
+	background-color: red;
+}
+
+.sub {
+	background-color: #eb4747;
+}
+.reset {
+	background-color: blue;
+}
